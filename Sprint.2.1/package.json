@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "start": "node cli.js"
+    "start": "node cli.js",
+    "test:debounce": "npx jest src/__test__/debounce.test.ts",
+    "test:throttle": "npx jest src/__test__/throttle.test.ts"
   },
   "keywords": [],
   "author": "",

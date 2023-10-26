@@ -18,4 +18,4 @@ inquirer.prompt(questions).then((answers) => {
     }, parseInt(answers.timeout));
     debounceFn();
 });
-//# sourceMappingURL=cli.js.map
+//# sourceMappingURL=cli.debounce.js.map
