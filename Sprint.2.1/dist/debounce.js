@@ -8,4 +8,3 @@ const debounce = (func, timeout) => {
     };
 };
 export default debounce;
-//# sourceMappingURL=debounce.js.map

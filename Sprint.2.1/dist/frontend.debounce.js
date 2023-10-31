@@ -9,4 +9,3 @@ setTimeout(() => {
 setTimeout(() => {
     debounceDisplay("Function Debounce 2");
 }, 2000);
-//# sourceMappingURL=frontend.debounce.js.map

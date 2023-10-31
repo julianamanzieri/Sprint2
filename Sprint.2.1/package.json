@@ -6,9 +6,13 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "start": "node cli.js",
+    "start": "tsc",
     "test:debounce": "npx jest src/__test__/debounce.test.ts",
-    "test:throttle": "npx jest src/__test__/throttle.test.ts"
+    "test:throttle": "npx jest src/__test__/throttle.test.ts",
+    "test:memoize": "npx jest src/__test__/memoize.test.ts",
+    "cli:debounce": "node .dist/cli/cli.debounce.js",
+    "cli:throttle": "node .dist/cli/cli.throttle.js",
+    "cli:memoize": "node .dist/cli/cli.memoize.js"
   },
   "keywords": [],
   "author": "",

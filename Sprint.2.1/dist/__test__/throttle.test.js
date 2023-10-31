@@ -22,4 +22,3 @@ describe("Throttle Function Tests", () => {
         expect(mockFn).toBeCalledTimes(2);
     });
 });
-//# sourceMappingURL=throttle.test.js.map

@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-import debounce from "./debounce.js";
+import debounce from "../debounce.js";
 const questions = [
     {
         type: "input",
@@ -18,4 +18,3 @@ inquirer.prompt(questions).then((answers) => {
     }, parseInt(answers.timeout));
     debounceFn();
 });
-//# sourceMappingURL=cli.debounce.js.map

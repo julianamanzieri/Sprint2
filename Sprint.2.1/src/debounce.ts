@@ -1,5 +1,5 @@
 // Declara uma função e atribui uma constante e usa um tipo generico que permite flexibilidade para aceitar argumentos e não tem valor de retorno
-const debounce = <T extends (...args: any[]) => void>(
+export const debounce = <T extends (...args: any[]) => void>(
   // Primeiro parametro que por ser T pode ser qualquer função
   func: T,
   // Segundo parametro é numerico e representa o tempo em milissegundois do atraso para a execução
@@ -19,4 +19,4 @@ const debounce = <T extends (...args: any[]) => void>(
   };
 };
 
-export default debounce;
+// export default debounce;

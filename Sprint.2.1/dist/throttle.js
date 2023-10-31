@@ -8,4 +8,3 @@ export const throttle = (func, time) => {
         }
     };
 };
-//# sourceMappingURL=throttle.js.map

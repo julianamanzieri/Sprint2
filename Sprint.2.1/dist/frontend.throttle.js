@@ -9,4 +9,3 @@ setTimeout(() => {
 setTimeout(() => {
     throttleDisplay("Function Throttle 2");
 }, 2000);
-//# sourceMappingURL=frontend.throttle.js.map

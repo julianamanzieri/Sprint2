@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-import debounce from "./debounce.js";
+import { debounce } from "../debounce";
 
 const questions = [
   {
